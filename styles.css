@@ -1,0 +1,102 @@
+@font-face {
+    font-family:"Montserat";
+    src: url("Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family:"Fraunces";
+    src: url("Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+
+
+
+body
+{
+
+background-color:hsl(30, 38%, 92%);
+}
+.container
+{
+    width: 700px;
+   
+    height: 595px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color:white;
+ 
+ 
+}
+.product_image
+{
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+   width: 360px;
+   height: 600px;
+   left: 50%;
+   padding-right: 20px;
+   ;}
+.test
+{
+    display: inline-block;
+    position: absolute;
+    
+}
+.Name
+{
+    font-size: 12px;
+    font-weight: 20px;
+    font-family:  url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+    padding-bottom: 0px;
+}
+.Description
+{
+    font-size: 50px;
+    font-family:"Montserat";
+    font-style: normal;
+}
+
+.pr
+{
+    font-family: "Montserat";
+    justify-content: space-evenly;    
+}
+.Price{
+    font-size: 25px;
+    display: inline-block;
+    padding-right: 50px;
+    font-family: Fraunces;
+    color: rgb(35, 85, 35);
+    
+}
+.addtocart
+{
+    width: 275px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(14, 53, 14);
+    border-radius: 5px;
+    border: 0;
+
+    
+    
+}
+.icon-text
+{
+    display: inline-block;
+    color: aliceblue;
+    font-weight: 700;
+    padding-left: 10px;
+    font-family: Montserat;
+}
+.Price2
+{
+    display: inline-block;
+    font-family: Montserat;
+    color: rgb(168, 168, 168);
+}
